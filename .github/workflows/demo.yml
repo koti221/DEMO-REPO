@@ -1,9 +1,9 @@
 name: hello-world
-'on': push
+'on' : push
 jobs:
-my-job:
- runs-on: ubntu-latest
- steps:
-    -name: my step
-     run: echo "Hello world!"
+ my-job:
+    runs-on: ubntu-latest
+    steps:
+     - name: my-step
+       run: echo "Hello world!"
  
